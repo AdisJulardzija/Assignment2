@@ -50,8 +50,8 @@ st.sidebar.header("Filters")
 # Objective of the site
 with st.expander("**Objective**"):
                  st.markdown("""At the core of this dashboard is the goal of visually interpreting data to provide valuable insights on two critical aspects:
-- Worriedness About Future Medical Costs: How do different age groups perceive their future medical expenses, and which groups are more likely to be concerned about these costs?
-- Worriedness About Future Medical bills: How do different age groups perceive their future medical expenses, and which groups are more likely to be concerned about these costs?
+- Worriedness About future medical costs: How do different age groups perceive their future medical expenses, and which groups are more likely to be concerned about these costs?
+- Worriedness About future bills: How do different age groups perceive their future medical expenses, and which groups are more likely to be concerned about these costs?
 """)
  
 # Sidebar filter: Age Group
