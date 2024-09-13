@@ -81,7 +81,7 @@ st.header("Results")
 visualization_option = st.selectbox(
     " ",
     ["Medical costs",
-     "Medical bills",
+     "Bills",
      "Box Plot of age of respondents",
      "Distribution of age groups"])
  
@@ -93,7 +93,7 @@ if visualization_option == "Medical costs":
     ax.set_title("Distribution of Respondent's Worriedness of Medical Costs")
     st.pyplot(fig)
  
-elif visualization_option == "Medical bills":
+elif visualization_option == "Bills":
     # Plotting the worriedness for medical bills across ages
     fig, ax = plt.subplots()
     sns.countplot(x="fin44c", data=ndf, ax=ax)
